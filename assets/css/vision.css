@@ -21,50 +21,27 @@
 	background-color: #ffc107;
 }
 
-body h1 {
+
+#vision-jumbo h1 {
     font-size: 5rem;
     font-weight: 300;
     line-height: 1.2;
     color: #ffffff;
 }
 
-#front-jumbo {
-	height: 100vh;
+#vision-jumbo {
+	height: 33vh;
 	background-color: #222222;
 	background-size: 100px 100px;
 	padding-top: 0px;
 	margin-bottom: 0px;
 }
-	
+
 #jumbo-text{
-	margin-top: 15vh;
+	margin-top: 5vh;
 	margin-bottom: 10vh;
 }
 
-.sub-to-idx-3{
-	color: #ffc107;
-}
-.sub2-to-idx-1{
-	color: #ffc107;
-}
-
-.index-row{
-	height: 65vh;
-}
-
-.index-row h1{
-    font-size: 15rem;
-    font-weight: 300;
-    line-height: 1.2;
-    color: #ffffff;
-    margin: 0 auto;
-}
-
-.card-title{
-    font-size: 4rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
 
 .footer{
 	padding-top: 10px;
