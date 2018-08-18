@@ -1,0 +1,35 @@
+body h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.navspace {
+	background-color: #222222;
+	font-size: 1.5rem;
+}
+
+.navspace ul{
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.nav-link {
+	color: #ffffff;
+}
+
+.nav-link:hover {
+	color: #ffc107;
+}
+
+#front-jumbo {
+	height: 100vh;
+	background-color: #222222;
+	background-size: 100px 100px;
+}
+	
+#jumbo-text{
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
