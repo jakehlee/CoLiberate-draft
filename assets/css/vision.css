@@ -1,3 +1,14 @@
+@font-face {
+	font-family: ComputerModern;
+	src: url("../fonts/cmunrm.otf") format("opentype");
+}
+
+@font-face {
+	font-family: ComputerModern;
+	font-weight: bold;
+	src: url("../fonts/cmunrb.otf") format("opentype");
+}
+
 .navspace {
 	background-color: #222222;
 	font-size: 1.5rem;
@@ -42,6 +53,30 @@
 	margin-bottom: 10vh;
 }
 
+.vision-body {
+	margin-top: 10vh;
+}
+
+.vision-body h1 {
+	font-family: "ComputerModern", Times, serif;
+	font-size: 3rem;
+}
+
+.vision-body h2 {
+	font-family: "ComputerModern", Times, serif;
+	font-size: 2.2rem;
+}
+
+.vision-body p {
+	font-family: "ComputerModern", Times, serif;
+	font-size: 1.5rem;
+	letter-spacing: -0.2px;
+	line-height: 1.3
+}
+
+.vis-par {
+	margin-top: 5vh;
+}
 
 .footer{
 	padding-top: 10px;
