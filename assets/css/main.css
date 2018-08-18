@@ -89,7 +89,7 @@ body h1 {
 
 @media (max-width: 768px) {
 	.card{
-		max-width: 90vw;
+		max-width: 100vw;
 	}
 }
 

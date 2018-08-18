@@ -14,6 +14,12 @@
 	font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+	.navspace {
+		font-size: 1rem;
+	}
+}
+
 .navspace ul{
 	padding-top: 10px;
 	padding-right: 10px;
