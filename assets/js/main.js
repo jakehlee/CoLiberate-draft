@@ -22,22 +22,22 @@ $(document).ready(function() {
 	  clearOriginalContent: false,
 	};
 	var sub = new Sub([
+		"CoLiberate is how makers",
 		"CoLiberate is how educators",
 		"CoLiberate is how entrepeneurs",
 		"CoLiberate is how students",
 		"CoLiberate is how citizens",
 		"CoLiberate is how leaders",
-		"CoLiberate is how pilots",
-		"CoLiberate is how makers"
+		"CoLiberate is how pilots"
 	], opts).run();
 	var sub2 = new Sub([
+		"build everything together.",
 		"build classrooms together.",
 		"build businesses together.",
 		"build projects together.",
 		"build communities together.",
 		"build futures together.",
-		"build drones together.",
-		"build everything together."
+		"build drones together."
 	], opts2).run();
 });
 
