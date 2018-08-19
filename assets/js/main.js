@@ -2,7 +2,7 @@ $(document).ready(function() {
 	var opts = {
 	  containerId: "sub",
 	  namespace: "sub",
-	  interval: 5000,
+	  interval: 3000,
 	  speed: 200,
 	  mobileWidth: null,
 	  verbose: false,
@@ -13,7 +13,7 @@ $(document).ready(function() {
 	var opts2 = {
 	  containerId: "sub2",
 	  namespace: "sub2",
-	  interval: 5000,
+	  interval: 3000,
 	  speed: 200,
 	  mobileWidth: null,
 	  verbose: false,
