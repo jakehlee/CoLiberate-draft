@@ -1,0 +1,119 @@
+/*
+@font-face {
+	font-family: ComputerModern;
+	src: url("../fonts/cmunrm.otf") format("opentype");
+}
+
+@font-face {
+	font-family: ComputerModern;
+	font-weight: bold;
+	src: url("../fonts/cmunrb.otf") format("opentype");
+}
+*/
+
+.navspace {
+	background-color: #222222;
+	font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.navspace {
+		font-size: 1rem;
+	}
+}
+
+.navspace ul{
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.nav-link {
+	color: #ffffff;
+}
+
+.nav-link:hover {
+	color: #ffc107;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: black;
+	background-color: #ffc107;
+}
+
+#vision-jumbo h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+
+
+#vision-jumbo {
+	height: 33vh;
+	background-color: #222222;
+	background-size: 100px 100px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+#jumbo-text{
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+}
+
+#swipe-title {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+#swipe-title h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: black;	
+}
+
+
+#pin1{
+	height: 100vh;
+}
+
+.screen-img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#first {
+	background-image: url("../img/device-white.png");
+}
+
+#second {
+	background-image: url("../img/device-first.png");
+}
+
+.swipe-img-col {
+	padding-left: 0;
+}
+
+.swipe-text-col {
+	color: white;
+}
+
+.swipe-row {
+	height: 100vh;
+}
+
+.footer{
+	padding-top: 10px;
+	background-color: #222222;
+}
+
+.footer h2, .footer h4, .footer p{
+	font-weight: 300;
+	color: white;
+}
