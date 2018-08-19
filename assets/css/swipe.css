@@ -64,7 +64,7 @@
 
 #swipe-title {
 	padding-top: 5vh;
-	padding-bottom: 5vh;
+	padding-bottom: 10vh;
 }
 
 #swipe-title h2 {
@@ -83,17 +83,29 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-size: 100% auto;
+	background-size: 80% auto;
 	background-repeat: no-repeat;
 	background-position: left top;
 }
 
-#first {
+#zero {
 	background-image: url("../img/device-white.png");
 }
 
-#second {
+#first {
 	background-image: url("../img/device-first.png");
+}
+
+#second {
+	background-image: url("../img/device-second.png");
+}
+
+#third {
+	background-image: url("../img/device-third.png");
+}
+
+#fourth {
+	background-image: url("../img/device-fourth.png");
 }
 
 .swipe-img-col {
@@ -102,10 +114,41 @@
 
 .swipe-text-col {
 	color: white;
+	padding-left:  5vw;
+	padding-right: 5vw;
+}
+
+.swipe-text-col h1 {
+	font-size: 3rem;
+}
+
+.swipe-text-col p, ul {
+	font-size: 1.5rem;
 }
 
 .swipe-row {
 	height: 100vh;
+}
+
+.table-row {
+	padding-top: 20vh;
+	padding-bottom: 10vh
+}
+
+.table-row th, td {
+	font-size: 1.2rem;
+}
+
+.table-responsive {
+	padding-top: 3vh;
+}
+
+.rtimes {
+	color: red;
+}
+
+.gcheck {
+	color: green;
 }
 
 .footer{
