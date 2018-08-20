@@ -30,31 +30,31 @@ $(document).ready(function() {
 	//build scene
 	var pinScene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: "325%"})
 								.setPin("#pin1", {pushFollowers: false})
-								.addIndicators({name: "pin (duration: 325%)"}) // add indicators (requires plugin)
 								.addTo(controller)
 								.triggerHook(hookVal);
+								//.addIndicators({name: "pin (duration: 325%)"}) // add indicators (requires plugin)
 
 	var aniScene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 0})
 								.setTween(tlFirst)
-								.addIndicators({name: "first ani"})
 								.addTo(controller)
 								.triggerHook(hookVal);
+								//.addIndicators({name: "first ani"})
 
 	var aniScene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 0})
 								.setTween(tlSecond)
-								.addIndicators({name: "second ani"})
 								.addTo(controller)
 								.triggerHook(hookVal);
+								//.addIndicators({name: "second ani"})
 
 	var aniScene3 = new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 0})
 								.setTween(tlThird)
-								.addIndicators({name: "third ani"})
 								.addTo(controller)
 								.triggerHook(hookVal);
+								//.addIndicators({name: "third ani"})
 
 	var aniScene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 0})
 								.setTween(tlFourth)
-								.addIndicators({name: "fourth ani"})
 								.addTo(controller)
 								.triggerHook(hookVal);
+								//.addIndicators({name: "fourth ani"})
 });

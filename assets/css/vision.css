@@ -89,8 +89,12 @@
 	margin-top: 5vh;
 }
 
+.vis-par img {
+	width: 100%;
+}
+
 .footer{
-	padding-top: 10px;
+	padding-top: 3vh;
 	background-color: #222222;
 }
 
@@ -98,3 +102,6 @@
 	font-weight: 300;
 	color: white;
 }
+
+#mc_embed_signup{background:#222; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+#mc_embed_signup_scroll{width:100%;}
