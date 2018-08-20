@@ -64,6 +64,15 @@ body h1 {
 	}
 }
 
+.front-down {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 2rem;
+}
+
 .sub-to-idx-3{
 	color: #ffc107;
 }
