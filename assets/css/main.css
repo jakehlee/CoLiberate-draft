@@ -52,8 +52,10 @@ body h1 {
 }
 	
 #jumbo-text{
-	margin-top: 15vh;
-	margin-bottom: 10vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 @media (max-width: 768px) {
 	#jumbo-text{
