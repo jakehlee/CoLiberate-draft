@@ -26,7 +26,7 @@ $(document).ready(function() {
 		"CoLiberate is how educators",
 		"CoLiberate is how entrepeneurs",
 		"CoLiberate is how students",
-		"CoLiberate is how citizens",
+		"CoLiberate is how people",
 		"CoLiberate is how leaders",
 		"CoLiberate is how pilots"
 	], opts).run();
