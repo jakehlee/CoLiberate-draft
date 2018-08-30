@@ -1,46 +1,3 @@
-/*
-@font-face {
-	font-family: ComputerModern;
-	src: url("../fonts/cmunrm.otf") format("opentype");
-}
-
-@font-face {
-	font-family: ComputerModern;
-	font-weight: bold;
-	src: url("../fonts/cmunrb.otf") format("opentype");
-}
-*/
-
-.navspace {
-	background-color: #222222;
-	font-size: 1.5rem;
-}
-
-@media (max-width: 768px) {
-	.navspace {
-		font-size: 0.5rem;
-	}
-}
-
-.navspace ul{
-	padding-top: 10px;
-	padding-right: 10px;
-}
-
-.nav-link {
-	color: #ffffff;
-}
-
-.nav-link:hover {
-	color: #ffc107;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-	color: black;
-	background-color: #ffc107;
-}
-
-
 #vision-jumbo h1 {
     font-size: 5rem;
     font-weight: 300;
@@ -92,16 +49,3 @@
 .vis-par img {
 	width: 100%;
 }
-
-.footer{
-	padding-top: 3vh;
-	background-color: #222222;
-}
-
-.footer h2, .footer h4, .footer p{
-	font-weight: 300;
-	color: white;
-}
-
-#mc_embed_signup{background:#222; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-#mc_embed_signup_scroll{width:100%;}
