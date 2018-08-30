@@ -1,4 +1,4 @@
 # CoLiberate-draft
 Draft website for CoLiberate
 
-Currently hosted at [jakehlee.com/coliberate.html]
+Currently hosted at http://jakehlee.com/coliberate/
