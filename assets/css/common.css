@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200|Open+Sans:400,700');
+body h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 200;
+}
+
+body p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
 .navspace {
 	background-color: #222222;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 @media (max-width: 768px) {
 	.navspace {
-		font-size: 0.5rem;
+		font-size: 0.4rem;
 	}
 }
 

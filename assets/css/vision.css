@@ -1,6 +1,6 @@
 #vision-jumbo h1 {
     font-size: 5rem;
-    font-weight: 300;
+    /*font-weight: 300;*/
     line-height: 1.2;
     color: #ffffff;
 }
@@ -24,21 +24,20 @@
 
 .vision-body h1 {
 	/*font-family: "ComputerModern", Times, serif;*/
-	font-family: Montserrat, sans-serif;
+	/*font-family: Montserrat, sans-serif;*/
 	font-size: 3rem;
 }
 
 .vision-body h2 {
 	/*font-family: "ComputerModern", Times, serif;*/
-	font-family: Montserrat, sans-serif;
-	font-size: 2.2rem;
+	/*font-family: Montserrat, sans-serif;*/
+	font-size: 2rem;
 }
 
 .vision-body p {
 	/*font-family: "ComputerModern", Times, serif;*/
-	font-family: Roboto, sans-serif;
-	font-size: 1.5rem;
-	letter-spacing: -0.2px;
+	/*font-family: Roboto, sans-serif;*/
+	font-size: 1.2rem;
 	line-height: 1.3
 }
 

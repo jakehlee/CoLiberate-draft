@@ -131,7 +131,7 @@
    * @param {number} height - the outerHeight of the wrapper.
    */
   function _injectStyle(namespace, transitionSpeed, height, fontFamily) {
-    height = (parseInt(height)+5).toString() + "px"
+    height = (parseInt(height)+15).toString() + "px"
     var css =
       "@font-face {\n" +
       "    font-family: " + namespace + "-empty;\n" +
